@@ -1,0 +1,108 @@
+@charset "UTF-8";
+
+/* すべてのwebページに適用される*/
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #FFFFFF;
+    color: #000000;
+    font-size: 15px;
+    font-family: sans-serif;
+    line-height: 2;
+}
+#startseite {
+	text-align: center;
+}
+h2{
+	color: #442220
+	font-size: 18px;
+	border-bottom-width: 2px;
+	border-bottom-style: solid;
+	border-bottom-color: #99ff33;
+}
+.contents-title{
+	margin-left: 100px;
+}
+
+.uberuns-text{
+	margin-right: auto;
+	margin-left: auto;
+	font-size: 20px;
+	width: 50em;
+}
+
+.footer{
+	background-color: #99d63d;
+	width: 100%;
+	height:270px ;
+	line-height: normal;
+	bottom: 0;
+}
+
+h4{
+	margin-left: 100px;
+}
+.footer p{
+	margin-left: 100px;
+}
+
+h5{
+	font-size: 17px;
+	list-style-type: none;
+	float: right;
+	margin-right: 40px;
+}
+
+.maps p{
+	font-size: 20px;
+	display: inline-block;
+	margin: auto 30px auto;
+	vertical-align: top;
+}
+
+
+
+.maps{
+	text-align: center;
+}
+
+.map{
+	margin: auto;
+	display: inline-block;
+}
+
+.clear{
+	clear: left;
+}
+
+/*すべてページに適用される- navまわり - */
+
+#nav li {
+	font-size: 20px;
+	display: inline;
+	list-style-type: none;
+	padding-right: 55px;
+}
+#nav{
+	margin: 0000;
+	padding: 15px 30px 10px 30px;
+	background-color: #FFFFFF;
+	text-align: center;
+}
+#nav li a:link{
+	color: #0000EE;
+	text-decoration: none;
+}
+#nav li a:visited{
+	color: #0000FF;
+}
+#nav li a:hover{
+	text-decoration: underline;
+}
+
+
+
+
+
+
+
